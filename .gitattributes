@@ -1,2 +1,2 @@
-*.c Clinguist-language=C
-*.h linguist-language=C
+*.v Clinguist-language=Verilog
+*.vh linguist-language=Verilog
