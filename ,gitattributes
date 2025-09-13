@@ -1,0 +1,2 @@
+*.c Clinguist-language=
+*.h linguist-language=C
