@@ -4,3 +4,11 @@ This repository includes programming assignments associated with the Real Digita
 
 Project 2:
 https://github.com/GusBallmanjr/EE-214-Design-of-Logical-Circuits--Verilog--/tree/Project-2
+Project 3: 
+https://github.com/GusBallmanjr/EE-214-Design-of-Logical-Circuits--Verilog--/tree/Project-3
+Project 4:
+https://github.com/GusBallmanjr/EE-214-Design-of-Logical-Circuits--Verilog--/tree/Project-4
+Project 5:
+https://github.com/GusBallmanjr/EE-214-Design-of-Logical-Circuits--Verilog--/tree/Project-5
+Project 6:
+https://github.com/GusBallmanjr/EE-214-Design-of-Logical-Circuits--Verilog--/tree/Project-6
