@@ -1,0 +1,18 @@
+# Verilog source files - use Verilog syntax highlighting on GitHub
+*.v  linguist-language=Verilog
+*.vh linguist-language=Verilog
+
+# Normalize line endings to LF for Verilog files
+*.v  text eol=lf
+*.vh text eol=lf
+
+# Mark simulation or generated files to be excluded from language stats
+*.vcd linguist-documentation
+*.log linguist-documentation
+*.out linguist-generated
+*.hex linguist-generated
+*.bin linguist-generated
+
+# Enable better diffing for Verilog files (optional, requires git config)
+*.v  diff=verilog
+*.vh diff=verilog
