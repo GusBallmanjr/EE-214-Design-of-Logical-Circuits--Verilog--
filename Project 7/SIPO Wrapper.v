@@ -14,6 +14,6 @@ reg [25:0] cntr;
  always @ (posedge(clk))
     cntr <= cntr + 1;
     
-SIPORegister SIPO_reg(.clk(cntr[25]), .SDI(btn), .Out(led));
+SIPOregister SIPO_reg(.clk(cntr[25]), .SDI(btn), .Out(led));
 
 endmodule
