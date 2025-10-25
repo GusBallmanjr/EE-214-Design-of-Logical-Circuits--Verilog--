@@ -1,7 +1,7 @@
 `timescale 1ns / 1ps
 //////////////////////////////////////////////////////////////////////////////////
 // Engineer: Gus Ballman
-// Create Date: 10/21/2025 10:17:02 AM
+// Create Date: 10/21/2025
 // Design Name: D Flip Flop with Clear
 // Module Name: DFlipFlopClear
 // Project Name: EE 214 Project 7
