@@ -1,6 +1,13 @@
 `timescale 1ns / 1ps
+//////////////////////////////////////////////////////////////////////////////////
+// Engineer: Gus Ballman
+// Create Date: 10/23/2025
+// Design Name: Shift Register (Parallel In - Series Out Register) Application Wrapper
+// Module Name: ShiftRegisterWrapper
+// Project Name: EE 214 Project 7
+//////////////////////////////////////////////////////////////////////////////////
 
-module ShiftregisterWrapper(input [7:0] sw, input [1:0] btn, input clk, output [9:0] led, output [2:0] RGB_led_A, output [2:0] RGB_led_B);
+module ShiftRegisterWrapper(input [7:0] sw, input [1:0] btn, input clk, output [9:0] led, output [2:0] RGB_led_A, output [2:0] RGB_led_B);
 
 reg [25:0] cntr;
 always @ (posedge(clk)) begin
