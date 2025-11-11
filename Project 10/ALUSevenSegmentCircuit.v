@@ -23,7 +23,7 @@ Q2 <= sw;
 end
 end
 
-CBCD1kHzmodule CBCD_init(.clk(clk), .clkOut(kHzClock));
+    CBCD1kHzmodule CBCD_init(.clk(clk), .clkOut(kHzClock)); // Module found in project 8 and 9
 
 always @(*) begin
 carryOut <= (Q1[7] & Q2[7]);
