@@ -3,11 +3,13 @@
 
 module SevenSegmentDisplaySystem(input clk, input cen, input rst, output reg [3:0] seg_an, output [6:0] seg_cat);
 
-    wire [3:0] d0, d1, d2, d3, clock1kHz;
+wire [3:0] d0, d1, d2, d3, clock1kHz;
 wire [1:0] sel;
 reg  [3:0] digit;
 reg [6:0] seg;
 
+// 100 MHz to 1kHz clock divider
+kHzClock kHzClock_init(.clock(clk), .clkOut(clock1kHz));
 
 // Binary Coded Decimal COunter
 BCDCounter bcd(.clock(clock1kHz), .rst(rst), .cen(cen), .digit0(d0), .digit1(d1), .digit2(d2), .digit3(d3));
