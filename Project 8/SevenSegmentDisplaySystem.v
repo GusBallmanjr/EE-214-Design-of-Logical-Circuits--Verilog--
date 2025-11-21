@@ -1,9 +1,9 @@
 `timescale 1ns / 1ps
 
 
-module SevenSegmentDisplaySystem(input clock1kHz, input cen, input rst, output reg [3:0] seg_an, output [6:0] seg_cat);
+module SevenSegmentDisplaySystem(input clk, input cen, input rst, output reg [3:0] seg_an, output [6:0] seg_cat);
 
-wire [3:0] d0, d1, d2, d3;
+    wire [3:0] d0, d1, d2, d3, clock1kHz;
 wire [1:0] sel;
 reg  [3:0] digit;
 reg [6:0] seg;
