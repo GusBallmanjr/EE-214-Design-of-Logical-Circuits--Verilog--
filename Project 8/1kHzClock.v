@@ -1,7 +1,5 @@
 `timescale 1ns / 1ps
 
-
-
 module kHzClock(input clock, output reg clkOut = 0);
 
 reg [25:0] count;
