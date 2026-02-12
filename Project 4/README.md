@@ -43,6 +43,3 @@ A configurable 8‑bit shifter is designed, simulated, and implemented on the Bl
 + A pushbutton provides the fill bit for shifting  
 + Eight LEDs display the shifted or rotated output  
 The circuit supports left/right shifts and rotates by 0–3 positions.
-
-## Summary
-This project reinforces core concepts in combinational logic design, including multiplexing, decoding, encoding, and shifting. Through simulation and hardware implementation, it builds practical experience with Verilog, FPGA workflows, and digital circuit behavior.
