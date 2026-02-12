@@ -1,6 +1,6 @@
 `timescale 1ns / 1ps
 
-module project3(input [0:4] btn, input [0:5] sw, output led);
+module project2(input [0:4] btn, input [0:5] sw, output led);
 
 assign led[0] = (~sw[1]&sw[0])|(sw[1]&~sw[0]); // *This is led[0]'s Sum of Products Expression*
 // (sw[0]|sw[1])&(~sw[0]|~sw[1]; *This is led[0]'s Product of Sums Expression*
